@@ -400,7 +400,8 @@ p {
   background-color: var(--alt-tittle-cl);
 }
 
-.social-icons-link:hover {
+.social-icons-link:hover,
+.social-icons-link:focus {
   background-color: var(--tittle-cl);
 }
 
