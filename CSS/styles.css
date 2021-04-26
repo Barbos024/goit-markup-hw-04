@@ -101,6 +101,8 @@ p {
   font-style: inherit;
   letter-spacing: 0.03em;
   color: var(--alt-text-cl);
+  display: flex;
+  align-items: center;
 }
 
 .address-list {
@@ -179,13 +181,14 @@ p {
   margin-left: 8px;
 }
 
-.btn-list-item:hover,
-.btn-list-item:focus {
+.btn-link:hover,
+.btn-link:focus {
   background: var(--button-bg);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--alt-tittle-cl);
 }
+
 .pointer {
   cursor: pointer;
 }
@@ -505,7 +508,8 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-icons-link:hover {
+.footer-icons-link:hover,
+.footer-icons-link:focus {
   background-color: var(--tittle-cl);
 }
 
