@@ -473,7 +473,7 @@ p {
 }
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-start;
 }
 .footer-contacts {
